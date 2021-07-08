@@ -11,6 +11,8 @@ see 'github pages':
   https://github.com/jergra/jergra.github.io/settings/pages
   
 to update:
+  
   make changes at C:\webdev\portfolio>
+  
   npm run deploy
   
