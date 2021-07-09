@@ -8,6 +8,16 @@ deployed at:
 see 'github pages':
   https://github.com/jergra/jergra.github.io/settings/pages
   
-to update:
-  make changes at C:\webdev\portfolio>
-  npm run deploy
+to work on it locally:
+  npm run develop
+
+to view what will be the deployed version locally:
+  npm run build
+  npm run serve
+  
+to update deployed version:
+  npm run build
+  gh-pages -d public -b master
+
+  or combine the two commands:
+    npm run deploy
