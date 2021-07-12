@@ -16,8 +16,4 @@ to view what will be the deployed version locally:
   npm run serve
   
 to update deployed version:
-  npm run build
-  gh-pages -d public -b master
-
-  or combine the two commands:
-    npm run deploy
+  npm run deploy
