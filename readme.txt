@@ -20,8 +20,13 @@ see 'github pages':
 
 to work on it locally:
   working from C:\webdev\portfolio>
-  
+
   npm run develop
+
+  add additional projects:
+    content/projects/<projectName.md>
+  edit 'About Me' skills:
+    src/components/sections/about.js
 
 to view what will be the deployed version locally:
   npm run build
@@ -30,3 +35,6 @@ to view what will be the deployed version locally:
 to update deployed version:
   npm run deploy
 
+  it might take a few minutes for the website to change
+  
+  
